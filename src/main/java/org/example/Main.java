@@ -19,6 +19,16 @@ public class Main {
                 break;
             case 4:
                 Ex4.week(0);
+            case 5:
+                System.out.println("Informe um número inteiro: ");
+                int x=sc.nextInt();
+                Ex5 primo = new Ex5();
+                if(primo.verificarPrimo(x)) System.out.println("Número "+x+" é primo!");
+                else System.out.println("O número "+x+ " não é primo!");
+                break;
+            case 6:
+                Ex6.game(0);
+                break;
             default:
                 System.out.println("A lista só possui 10 exercícios!");
         }
