@@ -29,6 +29,18 @@ public class Main {
             case 6:
                 Ex6.game(0);
                 break;
+            case 7:
+                Ex7.usuario("login","senha");
+                break;
+            case 8:
+                Ex8.tabuada(0);
+                break;
+            case 9:
+                Ex9.validarCpf("cpf");
+                break;
+            case 10:
+                Ex10.classificarTriangulo(0,0,0);
+                break;
             default:
                 System.out.println("A lista só possui 10 exercícios!");
         }
